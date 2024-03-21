@@ -1,0 +1,240 @@
+.root{
+    color: #57ACDC;
+}
+.disabled{
+    color: #757575;
+}
+.d0{
+    background-color:rgb(13, 13, 13) ;
+    color: #757575;
+}
+.d2{
+    background-color: #252525;
+    color: #ccc;
+
+}
+#sidebar{
+    width: 15%;
+    padding-top: 20px;
+    background-color: rgb(13, 13, 13);
+    height: 100vh;
+}
+.droopex{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.drop-right{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.newfolder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #57ACDC;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: unset;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+span{
+    padding-left: 6px;
+
+}
+.side{
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+.home , .trash , .storage{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.border{
+    background-color: #757575;
+    height: 1px;
+    width: 100%;
+    margin-top: 30px;
+}
+.progress{
+    margin-top: 20px;
+    width: 85%;
+    background-color: #292A2D;
+    border-radius: 20px;
+   
+}
+.circle.fg {
+    transform: rotate(-90deg);
+    transform-origin: 125px 125px;
+    
+}
+  .circular-progress {
+    position: relative;
+ margin:30px 0 0 20px;
+
+    --size: 150px;
+    --half-size: calc(var(--size) / 2);
+    --stroke-width: 18px;
+    --radius: calc((var(--size) - var(--stroke-width)) / 2);
+    --circumference: calc(var(--radius) * pi * 2);
+    --dash: calc((var(--progress) * var(--circumference)) / 400);
+  }
+  
+  .circular-progress circle {
+    cx: var(--half-size);
+    cy: var(--half-size);
+    r: var(--radius);
+    stroke-width: var(--stroke-width);
+    fill: none;
+    stroke-linecap: round;
+  }
+  
+  .circular-progress circle.bg {
+    stroke: black;
+  }
+  
+  .circular-progress circle.fg {
+    transform: rotate(-90deg);
+    transform-origin: var(--half-size) var(--half-size);
+    stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+    transition: stroke-dasharray 0.3s linear 0s;
+    stroke: #5394fd;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+  .persentage{
+    position: absolute;
+    top: 57%;
+    left: 5.5%;
+  }
+  .tera{
+    position: absolute;
+    top: 77%;
+    left:3.5%;
+  }
+  .page{
+    display: flex;
+
+  }
+  .content{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+
+  }
+  input[type=search] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:transparent;
+    background-image: url('../images/search-normal.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  input[type=text] {
+    width: 40%;
+    box-sizing: border-box;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:transparent;
+    background-image: url('../images/Group\ 1000003773.svg');
+    background-position: 8px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  .display{
+    display: flex;
+    justify-content: space-between;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    .main p{
+        color: white;
+        font-size: 20px;
+    }
+    .border1{
+        background-color: #757575;
+        height: 1px;
+        width: 100%;
+        
+    }
+.items{
+    display: flex;
+}
+.border-top::after{
+content: '';
+position: absolute;
+width: 1px;
+height: 45px;
+background-color: #757575;
+color: #757575;
+top:18.5%;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    margin-right: 10px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    padding:10px ;
+}
+.d0 {
+    background-color: rgb(13, 13, 13);
+    color: #ccc;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 0px !important;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    background: transparent !important;
+    outline: 1px solid gray;
+    cursor: default;
+    appearance: inherit;
+    box-sizing: border-box;
+    box-shadow: black;
+    margin: 3px 3px 3px 3px;
+    
+}
+.doc img{
+    width:20px;
+    margin-right: 12px;
+}
+.d1{
+    background-color:transparent;
+    color: #ccc;
+}
+.bordr{
+    width: 10px;
+    margin-top: 5px;
+    height: 10px;
+    border-radius: 50%;
+    color: #57ACDC;
+    background-color: #57ACDC;
+
+}
+.diva{
+    display: flex;
+}
